@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tijucal</title>
+    <link rel="shortcut icon" href="/IMG/IBNT.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <link rel="stylesheet" href="/CSS/Responsividade.css">
+    <script src="/JAVASCRIPT/MenuHamburger.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="/JAVASCRIPT/Email.js" defer></script>
+    <script src="/JAVASCRIPT/Ajuda.js"defer></script>
+</head>
+<body>
+    <div class="popup">
+        <img class="Certo" src="/IMG/Certo.png" alt="ImagenCerto">
+        <H1>ENVIADO COM SUCESSO</H1>
+        <button class="fechar" >OK</button>
+    </div>
+    <div class="popupr">
+        <img class="Erado" src="/IMG/Erado.png" alt="ImagenErado">
+        <H1>PRENCHA TUDO</H1>
+        <button class="fecharr" >OK</button>
+    </div>
+    <header>
+        <nav>
+            <img id="MenuHamburger" src="/IMG/Hamburger.png" alt="Menu">
+            <div class="Responsividade">
+                <a href="/HTML/Ministerios.html">Ministerios</a>
+                <a href="/Index.html">Voltar</a>
+                <a href="/HTML/Sobre.html">Sobre Nos</a>
+            </div>
+            <div class="redes">
+                <a href="https://www.facebook.com/IBNTijucall/" target="_blank"> <img  src="/IMG/Facebook.png" alt="LogoFace"></a>
+                <a  href="https://www.instagram.com/ibntijucal/" target="_blank">  <img src="/IMG/Instagram.png" alt="LogoInsta"></a>
+                <a href="https://www.youtube.com/ibntijucal" target="_blank">  <img src="/IMG/Youtube.png" alt="LogoYoutube"></a>
+                
+            </div>
+        </nav>
+        <div class="base">
+            <div class="navegacao">
+                <a href="/HTML/Ministerios.html">Ministerios</a>
+                <a href="/Index.html">Voltar</a>
+                <a href="/HTML/Sobre.html">Sobre Nos</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="pedirOracao" style="margin-top: 0em;">
+            <h1>PEDIR ORAÇÃO</h1>
+            <input class="no" type="text" placeholder="NOME">
+            <input class="nome" type="text" placeholder="SOBRE NOME">
+            <textarea class="pedido" placeholder="SEU PEDIDO" ></textarea>
+            <img src="/IMG/Oração.png" alt="PedidoDeOraçao">
+            <button id="botaoEnviarOracao" type="button">Enviar</button>
+        </div>
+        <div class="pedirAjuda" style="margin-top: 0em;">
+            <h1>PEDIR AJUDA</h1>
+            <input class="ajudanome" type="text" placeholder="NOME">
+            <input class="tel" type="text" placeholder="TELEFONE">
+            <textarea class="Gmail" placeholder="SEU GMAIL" ></textarea>
+            <img src="/IMG/Ajuda.png" alt="PedideAjuda">
+            <button id="Ajuda" type="button">Enviar</button>
+        </div>
+    </main>
+</body>
+</html>
